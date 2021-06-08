@@ -1,0 +1,22 @@
+.Contact {
+    background-color: orange;
+    color: "white";
+    min-width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Contact .githublogo{
+    grid-column-start: 1;
+}
+
+.Contact .linkedinlogo{
+    grid-column-start: 2;
+}
+
+.Contact .facebooklogo{
+    grid-column-start: 3;
+}
